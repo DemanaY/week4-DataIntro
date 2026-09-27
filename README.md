@@ -1,4 +1,4 @@
-# Session X — Course Y
+# Session 4 — Intro to Data Course
 
 This repository contains the materials for **Session X** of *Course Y*.  
 - Slides: see [`slides/`](./slides/) folder  
@@ -6,7 +6,19 @@ This repository contains the materials for **Session X** of *Course Y*.
 ---
 
 ## 📑 Session Outline
+### Preprocessing & Feature Engineering
 
+This session prepares a messy survey dataset for later modeling work. 
+
+1. Inspect data types, missing values, duplicates, category labels, and suspicious values.
+2. Apply row-wise cleaning rules: remove duplicates, standardise labels, and flag impossible values.
+3. Choose a target and remove identifiers and target-leakage features.
+4. Split the data into training and test sets.
+5. Fit missing-value handling, categorical encoding, and scaling on the training set only.
+6. Extract useful date information and create simple features from existing columns.
+7. Use a preprocessing pipeline to apply the same workflow consistently to both sets.
+
+By the end of the session, you should be able to make a reliable documented preprocessing pipeline for your own dataset.
 
 ---
 ## 🚀 Environment Setup
