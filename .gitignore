@@ -1,6 +1,6 @@
 # Ignore data folder and heavy pptx files
 data/*
-!data/sample_messy_survey.csv
+!data/week4_messy_survey.csv
 slides/*.pptx
 
 # Byte-compiled / optimized / DLL files
